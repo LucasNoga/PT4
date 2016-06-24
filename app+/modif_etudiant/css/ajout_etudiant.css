@@ -1,0 +1,49 @@
+body{
+	background-color: rgb(200,200,200);
+}
+#conteneur {
+	text-align: center;
+}
+#titre{
+	position: relative;
+	display: block;
+	text-align: center;
+	margin-top: 2em;
+} 
+#accueil{
+	font-size: 20px;
+}
+#table_champs{
+	position:relative;
+	display: inline-block;
+	text-align:center;
+}
+#table_champs tr, #table_champs td{
+	padding:0.5em;
+}
+#bloc{
+	position: relative;
+	display: inline-block;
+	height: 550px;
+	width: 500px;
+	margin-top: 1em;
+}
+/*Pour tous les minibloc filiere, promo, groupe, matiere, horaires*/
+.minibloc{
+	position: relative;
+	display: block;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+.miniTitre{
+	display: inline-block;
+	position: relative;
+	width: 20em; 
+	margin-bottom:1em;
+	font-size: 16px;
+	color: rgb(80, 80, 80);
+	border:solid gray 2px;
+	border-radius: 10px 10px 10px 10px;
+}

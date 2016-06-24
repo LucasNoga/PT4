@@ -1,0 +1,59 @@
+body{
+	background-color: rgb(200,200,200);
+	text-align: center;
+}
+#titre{
+	position: relative;
+	display: block;
+	text-align: center;
+	border: solid black 2px;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 2px 2px 4px black;
+	background-color: rgba(255,255,255,0.7);
+}
+#entete{
+	position: relative;
+	display: block;
+	background-color: rgb(200,200,200);
+	margin-left:5em;
+	margin-bottom: 2em;
+	margin-top:5em;
+	left:35em;
+	width:40em;
+}
+#accueil{
+	cursor: crosshair;
+	font-size: 20px;
+}
+#ajout{
+	position: relative;
+	display: inline-block;
+	font-size: 18px;
+	border: dashed black 1px;
+	border-radius: 10px 10px 10px 10px;
+	color: rgb(100,100,100);
+	margin: 1em;
+	padding: 0.5em;
+} 
+#bloc{
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	height: 550px;
+	width: 500px;
+}
+.miniTitre{
+	display: block;
+	position: relative;
+	width: 20em;
+	margin-left: 6em;
+	margin-bottom: 20px;
+	font-size: 16px;
+	color: rgb(80, 80, 80);
+	border:solid gray 2px;
+	border-radius: 10px 10px 10px 10px;
+}
+#monSelect, #action{
+	margin-top: 2em;
+	display: none;
+}

@@ -1,0 +1,177 @@
+body{
+	background-color: rgb(200,200,200);
+}
+
+/*pour centrer les header dans les tableaux*/
+th{
+	text-align: center;
+}
+
+/*Pour les titres des tableaux*/
+caption{
+	text-align: center;
+	opacity: 1;
+}
+#conteneur{
+	text-align: center;
+}
+#titre:before{
+	display: inline-block;
+	position: relative;
+	background: black;
+	content: "";
+	width:10em;
+	height: 0.1em;
+	margin-right: 0.5em;
+	margin-bottom: 0.2em;
+}
+#titre:after{
+	position: relative;
+	display: inline-block;
+	background: black;
+	content: "";
+	width:10em;
+	height: 0.1em;
+	margin-left: 0.5em;
+	margin-bottom: 0.2em;
+}
+#titre{
+	position: relative;
+	display: block;
+	text-align: center;
+	margin-top: 2em;
+} 
+#fonctionnalites{
+	position:fixed;
+	display: block;
+	margin-top: 10em;
+	padding-top: 2em;
+	margin-left: 5em;
+	height: 20em;
+	width: 22em;
+	text-align: center;
+	border: solid black 2px;
+	border-radius: 100px 100px 100px 100px;
+	box-shadow: 2px 2px 4px black;
+	background-color: rgba(255,255,255,0.2);
+}
+#fonctionnalites h4{
+	margin-bottom: 2em;
+}
+.liens{
+	margin-bottom: 2em;
+}
+#bloc{
+	position: relative;
+	display: inline-block;
+	height: 550px;
+	width: 500px;
+	margin-top: 1em;
+}
+/*Pour tous les minibloc filiere, promo, groupe, matiere, horaires*/
+.minibloc{
+	position: relative;
+	display: none;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;	
+}
+#filiere{
+	border-radius: 10px 10px 10px 10px;
+	background-color: rgba(255,255,255,0.2);
+}
+#promotion{
+	border-radius: 10px 10px 10px 10px;
+	background-color: rgba(255,255,255,0.3);
+}
+#groupe{
+	border-radius: 10px 10px 10px 10px;
+	background-color: rgba(255,255,255,0.4);
+}
+#matiere-prof{
+	border-radius: 10px 10px 10px 10px;
+	background-color: rgba(255,255,255,0.4);
+}
+#matiere{
+	display: none;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	text-align: center;
+}
+#prof{
+	display: none;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	text-align: center;
+} 
+#eval{
+	display: none;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+#calendrier{
+	position: relative;
+	display: none;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+/*Propriete du calendrier*/
+#datepicker{
+	position: relative;
+	left:25%; 
+}
+
+#horaire{
+	border-radius: 10px 10px 10px 10px;
+	background-color: rgba(255,255,255,0.2);
+}
+#horaires{
+	height: 6.2em;
+}
+#selecthoraires{
+	width: 100px; 
+	height: 100px;
+}
+#valider{
+	margin: 2em;
+	position: relative;
+	display:none;
+	text-align: center;
+}
+.selection{
+	margin-bottom: 4px;
+}
+#table_etudiant{
+	width:15em;
+}
+/*le bloc des etudiant*/
+#etudiants{
+	position: absolute;
+	display: inline-block;
+	width: 15em;
+	left: 7em;
+	padding-top: 5em;
+	text-align: center;
+}
+/*le bloc des absents*/
+#absents{
+	position: absolute;
+	display: inline-block;
+	width: 20em;
+	padding-top: 5em;
+	right: 10em;
+	text-align: center;
+}
+#enregistrer{
+	position: absolute;
+	display: none;
+	top:10em;
+	left:25em;
+	padding-top: 10px;
+}
+
